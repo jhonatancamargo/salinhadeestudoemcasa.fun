@@ -673,33 +673,9 @@ src="https://www.facebook.com/tr?id=701498327613371&ev=PageView&noscript=1"
         });
     })(jQuery);
 </script>
-<script>
-    $(document).ready(function onDocumentReady() {
-        var URL_FINAL = 'https://pay.kiwify.com.br/fJs429Z?src=tik-tok'+location.search;
-        var nome = ['Luciana Oliveira', 'Marcia Araújo', 'Carolina Dias', 'Martha', 'Aline Campos', 'Luciane R Freire', 'Simone Z', 'Laura Campos', 'Carla Dias', 'Mariana Ruas', 'Jessica Ribeiro', 'Karol Lia'];
-        nome.sort(() => Math.random() - 0.5);
-        var i = 0, qtd = nome.length;
-        setInterval(function () {
-            setInterval(function doThis() {
-                if (i == 11) return; // somente 11 eventos serão disparados
-                if (i == 1 || i == 8 || i == 10) {
-                    toastr.info('<a href="' + URL_FINAL + '" style="font-size: 12px">Clique e Reserve sua vaga também!</a> ' + (qtd + (i * 3)) + ' novas alunas compraram nos últimos 30min.', {
-                        timeOut: 5000,
-                        positionClass: "toast-bottom-right",
-                    });
-                }
-                toastr.success('<a href="' + URL_FINAL + '" style="font-size: 12px">Clique e Reserve sua vaga também!</a> ' + nome[i++] + ' acabou de reservar a vaga dela.', {
-                    timeOut: 5000,
-                    positionClass: "toast-bottom-right",
-                })
-            }, 10 * 1000)
-            }, d * 1000);   // a cada 10 segundos
-    });
-</script>
 </body>
 <footer class="center px-lg-20 py-lg-1 py-sm-1 px-sm-2 white">
     <p><strong>Copyright 2022 – Bumbum Invejado ®</strong><br/>Todos os Direitos Reservados.</p>
-    <p><strong> contanto</strong><br/>CNPJ: 31.422.225/0001-60 - MATRIZ EST GERAL 59 CEP:88420-000 AGROLANDIA/SC -- EMAIL: contato@bumbuminvejado.com.br</p>
     <div class="flex" style="justify-content:center;">
         <a id="termos" href="termos.html">
             Termos de Uso
@@ -708,9 +684,6 @@ src="https://www.facebook.com/tr?id=701498327613371&ev=PageView&noscript=1"
             Políticas de Privacidade
         </a>
     </div>
-    <p class="disclaimer px-lg-20">
-        <strong>Este site não é afiliado ao Facebook ou  TikTok ou a qualquer entidade do Facebook Inc.</strong> Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usamos resultados reais.
-    </p>
 </footer>
 </html>
  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EPGSJW8HKX"></script>
